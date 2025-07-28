@@ -18,7 +18,7 @@ bug → impact
 
 ### Key Improvements From AI
 
-suggested improvement → impact
+improvement → impact
 
 ### Overall Impact of AI on Efficiency
 
