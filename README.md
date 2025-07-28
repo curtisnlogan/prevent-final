@@ -20,8 +20,6 @@ bug → impact
 
 suggested improvement → impact
 
--   use system fonts → faster page loading, crucial for a user who may be in an emergency scenario
-
 ### Overall Impact of AI on Efficiency
 
 efficiency → impact
