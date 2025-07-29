@@ -32,8 +32,8 @@ improvement → impact
 -   be cautious of dense paragraphs unless necessary → introduction to prevent is more likely to be read when split into three bullet points
 -   remove second repeated CTA → looks less pushy on a sensitive website related to prevent
 -   remove fixed back to home button → i will have a sticky nav bar so it was redundant
-- expose one key nav link in tablet → easier for tablet users to return to the key hero section
-- reminder to use whitespace on either side in desktop → shouldn't be taking up the full width of screen like on a smartphone
+-   expose one key nav link in tablet → easier for tablet users to return to the key hero section
+-   reminder to use whitespace on either side in desktop → shouldn't be taking up the full width of screen like on a smartphone
 
 ### Overall Impact of AI on Efficiency
 
