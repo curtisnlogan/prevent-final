@@ -18,9 +18,11 @@ _How you made the website live — the steps you followed to deploy (host) the p
 
 ## AI & Outcomes
 
-### AI’s Role in Resolving Key Bugs
+### AI’s Role in Creating/Resolving Key Bugs
 
 bug → impact
+
+- suggested max-width in media queries instead of min-width → would not have activated responsive breakpoints properly
 
 ### Key Improvements From AI
 
