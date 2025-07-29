@@ -7,8 +7,8 @@
 /* var */
 :root {
     /* fonts */
-    --primary-font: "Poppins", sans-serif;
-    --secondary-font: "Karla", sans-serif;
+    --header-font: "Poppins", sans-serif;
+    --body-font: "Karla", sans-serif;
     /* color palette */
     --off-white: #dce0e3;
     --light-blue: #77a9c0;
