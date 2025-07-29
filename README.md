@@ -20,6 +20,9 @@ bug → impact
 
 improvement → impact
 
+- be aware of possible notches on smartphones → ensured adequate padding at top of nav bar
+- numerous how to wireframe tips → felt more at ease doing a form of design that I had never done before
+
 ### Overall Impact of AI on Efficiency
 
 efficiency → impact
