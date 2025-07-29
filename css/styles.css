@@ -31,3 +31,11 @@ h5,
 h6 {
     font-family: var(--header-font);
 }
+
+/* md: tablets md */
+@media (min-width: 768px) {
+}
+
+/* lg: laptops and desktops */
+@media (min-width: 992px) {
+}
