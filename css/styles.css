@@ -86,3 +86,37 @@ nav img {
     width: 8rem;
     margin-left: 1rem;
 }
+
+/* FOOTER */
+
+footer {
+    min-height: 100px;
+    /*
+    transitions between two colors, opposite direction
+    to navbar
+    */
+    background-image: linear-gradient(
+        to left,
+        var(--off-white),
+        var(--light-blue)
+    );
+    font-family: var(--header-font);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+/* safe area for touch screen controls and rounded screen edge corners */
+.footer-safe-area {
+    padding-right: calc(1rem + env(safe-area-inset-right));
+    padding-left: calc(1rem + env(safe-area-inset-left));
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 992px) {
+    /* FOOTER */
+    .footer-safe-area {
+        padding: 0 1rem 1rem 1rem;
+    }
+}
