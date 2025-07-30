@@ -99,6 +99,13 @@ nav img {
     width: 15rem;
 }
 
+#hero h1 {
+    font-size: 1rem;
+    color: var(--dark-blue);
+    font-weight: bolder;
+    text-align: center;
+}
+
 /* FOOTER */
 
 footer {
