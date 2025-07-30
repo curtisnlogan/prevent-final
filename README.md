@@ -22,12 +22,14 @@ _How you made the website live — the steps you followed to deploy (host) the p
 
 bug → impact
 
-- suggested max-width in media queries instead of min-width → would not have activated responsive breakpoints properly
+-   suggested max-width in media queries instead of min-width → would not have activated responsive breakpoints properly
 
 ### Key Improvements From AI
 
 improvement → impact
 
+-   add safe area rule for notches etc. in css on nav bar → apple devices dominate some markets, so its important
+    to account for their quirks
 -   be aware of possible notches on smartphones → ensured adequate padding at top of nav bar
 -   numerous how to wireframe tips → felt more at ease doing a form of design that I had never done before
 -   noted my buttons were too small in my wireframe → easier to click on buttons with fingers on smartphones
