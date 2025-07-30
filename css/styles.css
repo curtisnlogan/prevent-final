@@ -106,6 +106,14 @@ nav img {
     text-align: center;
 }
 
+#hero h2 {
+    font-size: 0.7rem;
+    color: var(--medium-blue);
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
 /* FOOTER */
 
 footer {
