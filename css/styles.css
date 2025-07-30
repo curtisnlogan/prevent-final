@@ -91,14 +91,14 @@ nav img {
 }
 
 #hero h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--dark-blue);
     font-weight: bolder;
     text-align: center;
 }
 
 #hero h2 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--dark-blue);
     font-weight: bolder;
     font-style: italic;
@@ -107,7 +107,46 @@ nav img {
 
 #hero span {
     color: var(--medium-blue);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+}
+
+/* WHAT-IS */
+
+#what-is {
+    min-height: 450px;
+    background-image: linear-gradient(
+        to top,
+        var(--light-blue),
+        var(--dark-blue)
+    );
+}
+
+#what-is h2 {
+    font-size: 2rem;
+    color: var(--off-white);
+    text-align: center;
+}
+
+#what-is span {
+    text-shadow: 1px 1px 1px white;
+}
+
+#what-is h3 {
+    font-size: 0.9rem;
+    color: var(--off-white);
+    text-align: center;
+}
+
+.what-is-bullets {
+    width: 2rem;
+}
+
+#what-is hr {
+    color: var(--off-white);
+}
+
+#what-is-cta {
+    width: 13rem;
 }
 
 /* FOOTER */
@@ -124,7 +163,7 @@ footer {
         var(--light-blue)
     );
     font-family: var(--header-font);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     color: var(--dark-blue);
 }
