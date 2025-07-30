@@ -87,6 +87,18 @@ nav img {
     margin-left: 1rem;
 }
 
+/* HERO */
+
+#hero {
+    padding-top: 9.5rem;
+    background: no-repeat url(../assets/images/bg-hero.png) 60% center / cover;
+    min-height: 800px;
+}
+
+#hero img {
+    width: 15rem;
+}
+
 /* FOOTER */
 
 footer {
