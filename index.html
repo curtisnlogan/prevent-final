@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/styles.css" />
         <title>Prevent | Stop radicalization</title>
     </head>
-    <body>
+    <body class="d-flex flex-column min-vh-100">
         <header>
             <!-- bootstrap navbar -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-safe-area">
@@ -24,6 +24,7 @@
                             src="assets/images/nav-logo.png"
                             alt="Prevent logo"
                     /></a>
+                    <!-- forgot to wrap li in a ul/ol initially -->
                     <ul id="nav-ul-md" class="d-none d-md-block d-lg-none">
                         <!-- out of dropdown home link for tablets only -->
                         <li
@@ -116,10 +117,18 @@
                 <div></div>
             </section>
         </main>
-        <footer>
-            <h2></h2>
-            <!-- bootstrap modal for privacy policy & cookies -->
-            <div></div>
+        <footer class="footer-safe-area mt-auto">
+            <div class="container">
+                <div class="d-flex">
+                    <div class="pt-3">
+                        <p>Copyright © 2025</p>
+                    </div>
+                    <!-- bootstrap modal for privacy policy & cookies -->
+                    <div class="pt-3 ms-auto">
+                        <p><a href="#">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- bootstrap -->
         <script
