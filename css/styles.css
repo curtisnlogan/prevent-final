@@ -13,7 +13,7 @@
     --off-white: #dce0e3;
     --light-blue: #77a9c0;
     --medium-blue: #235aa6;
-    --dark-blue: #121c34;
+    --dark-blue: #183459;
     --pastel-purple: #646589;
 }
 
@@ -38,4 +38,48 @@ h6 {
 
 /* lg: laptops and desktops */
 @media (min-width: 992px) {
+}
+
+/* navbar */
+
+nav {
+    /* transitions between two colors in the navbar*/
+    background-image: linear-gradient(
+        to right,
+        var(--off-white),
+        var(--light-blue)
+    );
+    font-family: var(--header-font);
+    font-weight: bold;
+}
+
+#nav-home-md {
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: var(--dark-blue);
+    padding-right: 1rem;
+}
+/* ensures notches etc. on primarily apple devices are account for by the navbar */
+.navbar-safe-area {
+    padding-top: calc(1rem + env(safe-area-inset-top));
+    padding-right: calc(1rem + env(safe-area-inset-right));
+    padding-left: calc(1rem + env(safe-area-inset-left));
+    /* Bottom safe area is usually not needed for nav bars at the top, but right/left/top help with notches and rounded corners. */
+    padding-bottom: 1rem;
+}
+
+/* overrides bootstrap defaults */
+nav .nav-link {
+    color: var(--dark-blue);
+}
+/* targets bs class to remove border around dropdown */
+nav .navbar-toggler {
+    border: none;
+    border-radius: 10% / 50%;
+    border-color: var(--dark-blue);
+}
+/* targets my logo */
+nav img {
+    width: 8rem;
+    margin-left: 1rem;
 }
