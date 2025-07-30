@@ -52,6 +52,13 @@ nav {
     font-family: var(--header-font);
     font-weight: bold;
 }
+
+#nav-home-md {
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: var(--dark-blue);
+    padding-right: 1rem;
+}
 /* ensures notches etc. on primarily apple devices are account for by the navbar */
 .navbar-safe-area {
     padding-top: calc(1rem + env(safe-area-inset-top));
