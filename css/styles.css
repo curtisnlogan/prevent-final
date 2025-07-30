@@ -14,8 +14,8 @@
     /* color palette */
     --off-white: #dce0e3;
     --light-blue: #77a9c0;
-    --medium-blue: #235aa6;
-    --dark-blue: #183459;
+    --medium-blue: #0449a1;
+    --dark-blue: #1d4e7d;
     --pastel-purple: #646589;
 }
 
@@ -112,6 +112,11 @@ nav img {
     font-weight: bolder;
     font-style: italic;
     text-align: center;
+}
+
+#hero span {
+    color: var(--medium-blue);
+    font-size: 0.8rem;
 }
 
 /* FOOTER */
