@@ -67,6 +67,8 @@ nav .nav-link {
 /* targets bs class to remove border around dropdown */
 nav .navbar-toggler {
     border: none;
+    border-radius: 10% / 50%;
+    border-color: var(--dark-blue);
 }
 /* targets my logo */
 nav img {
