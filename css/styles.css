@@ -67,6 +67,7 @@ nav {
     /* Bottom safe area is usually not needed for nav bars at the top, but right/left/top help with notches and rounded corners. */
     padding-bottom: 1rem;
 }
+
 /* overrides bootstrap defaults */
 nav .nav-link {
     color: var(--dark-blue);
