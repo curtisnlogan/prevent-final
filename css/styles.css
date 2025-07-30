@@ -13,7 +13,7 @@
     --off-white: #dce0e3;
     --light-blue: #77a9c0;
     --medium-blue: #235aa6;
-    --dark-blue: #121c34;
+    --dark-blue: #183459;
     --pastel-purple: #646589;
 }
 
@@ -38,4 +38,20 @@ h6 {
 
 /* lg: laptops and desktops */
 @media (min-width: 992px) {
+}
+
+/* navbar */
+
+nav {
+    background-color: var(--off-white);
+    font-family: var(--header-font);
+    font-weight: bold;
+}
+/* overrides bootstrap defaults */
+nav .nav-link {
+    color: var(--dark-blue);
+}
+/* targets my logo */
+nav img {
+    width: 8rem;
 }
