@@ -34,6 +34,10 @@ h6 {
     font-family: var(--header-font);
 }
 
+section {
+    scroll-margin-top: 200px;
+}
+
 /* NAVBAR */
 
 nav {
@@ -235,7 +239,26 @@ footer a {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 768px) {
+    /* GLOBAL */
+
+    section {
+        scroll-margin-top: 150px;
+    }
+
+    /* WHAT IS */
+    #signs-carousel p {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width: 992px) {
+    /* GLOBAL */
+
+    section {
+        scroll-margin-top: 75px;
+    }
+
     /* HERO */
 
     #hero-cta:hover {
