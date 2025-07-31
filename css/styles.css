@@ -250,6 +250,12 @@ footer a {
         scroll-margin-top: 150px;
     }
 
+    /* HERO */
+
+    #hero h1 {
+        padding: 0 1rem;
+    }
+
     /* SIGNS */
     #signs-carousel p {
         font-size: 1rem;
