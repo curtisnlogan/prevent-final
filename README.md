@@ -44,13 +44,10 @@ A mobile-first navigation system with special consideration for tablet users (ex
 
 This was my first time creating wireframes, and while I ended up deviating slightly from the original designs during development, they proved invaluable for the overall design process. The wireframes helped me avoid getting bogged down in design decisions while styling, allowing me to focus on implementation rather than constantly reconsidering the general layout and structure.
 
-**Desktop Wireframe:**
 ![Desktop Wireframe](assets/images/wireframes-laptop.png)
 
-**Tablet Wireframe:**
 ![Tablet Wireframe](assets/images/wireframes-tablet.png)
 
-**Mobile Wireframe:**
 ![Mobile Wireframe](assets/images/wireframes-smartphone.png)
 
 The wireframes established the core layout principles that guided development: hero section with prominent CTA, clear information hierarchy in the Prevent explanation, carousel-based presentation of warning signs, and responsive navigation patterns. Having these foundational decisions mapped out beforehand streamlined the development process significantly.
