@@ -136,7 +136,7 @@ nav img {
 }
 
 #what-is span {
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px var(--off-white);
 }
 
 #what-is h3 {
