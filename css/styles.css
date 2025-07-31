@@ -149,6 +149,12 @@ nav img {
     width: 13rem;
 }
 
+/* 5 SIGNS */
+
+#signs {
+    min-height: 450px;
+}
+
 /* FOOTER */
 
 footer {
