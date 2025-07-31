@@ -240,12 +240,19 @@ footer a {
 
     #hero-cta:hover {
         width: 18rem;
+        transition: width 0.3s ease;
     }
 
     /* WHAT IS */
 
     #what-is-cta:hover {
         width: 16rem;
+        transition: width 0.3s ease;
+    }
+
+    /* SIGNS */
+    #signs-carousel {
+        max-width: 600px;
     }
 
     /* FOOTER */
