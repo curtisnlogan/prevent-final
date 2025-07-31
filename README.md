@@ -1,20 +1,36 @@
 # prevent-website
 
-_one sentence_
+A responsive educational website that helps users identify signs of radicalization and provides resources to report concerns about violent extremism.
 
 ## Purpose
 
-_Why you created the website or what goal it’s meant to achieve._
+This website was created to raise awareness about the UK's Prevent strategy and educate the public on recognizing early warning signs of radicalization. The goal is to help vulnerable individuals avoid being lured into violent extremism by providing clear information about what to look for and how to take action when concerns arise.
 
 ## User Value
 
-_[What your website does] so that [what users can accomplish or benefit from]._
+This website educates visitors about radicalization warning signs through an interactive carousel showcasing five key indicators (glorifying violence, identity transformation, social isolation, dehumanizing language, and fixation on grievances) so that community members, educators, and family members can identify at-risk individuals and access official reporting channels to potentially prevent acts of terrorism.
 
 ## Deployment Procedure
 
-_How you made the website live — the steps you followed to deploy (host) the project online so others can access it._
+The website can be deployed using any static hosting service since it consists of HTML, CSS, and Bootstrap components with no server-side processing required. Steps for deployment would include: uploading all files (index.html, css/styles.css, and assets/ folder) to a web hosting service, ensuring proper file structure is maintained, and configuring the domain to point to the index.html file as the root document.te
 
 ## Screenshots (with brief user value descriptions)
+
+### Hero Section
+
+The landing page features a clear call-to-action button linking to the official UK government terrorism reporting site, along with emergency contact information (999) prominently displayed. This immediate access to reporting mechanisms provides users with a direct path to take action on their concerns.
+
+### What is Prevent Section
+
+A visually organized breakdown of Prevent's three core functions using bullet points and contrasting colors. This section educates users about the strategy's approach to tackling terrorism ideology, early intervention, and rehabilitation, helping them understand the broader context of counter-extremism efforts.
+
+### Signs of Radicalization Carousel
+
+An interactive Bootstrap carousel displaying five key warning signs with background imagery and detailed descriptions. Each slide covers specific behaviors like glorifying violence, identity transformation, social isolation, dehumanizing language, and fixation on grievances, giving users concrete examples to recognize in their communities.
+
+### Responsive Navigation
+
+A mobile-first navigation system with special consideration for tablet users (exposed home link) and smartphone safe areas for device notches. This ensures accessibility across all devices while maintaining clean, professional presentation.
 
 ## AI & Outcomes
 
