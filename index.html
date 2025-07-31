@@ -1,214 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- SEO -->
+        <meta
+            name="description"
+            content="Prevent helps stop vulnerable individuals from being lured into violent extremism. Learn about radicalization signs and how to report concerns."
+        />
+        <meta
+            name="keywords"
+            content="prevent, terrorism, radicalization, extremism, security, report"
+        />
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
+        <!-- custom css below bootstrap -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Prevent | Stop radicalization</title>
+        <link
+            rel="shortcut icon"
+            href="assets/images/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO -->
-    <meta name="description" content="Prevent helps stop vulnerable individuals from being lured into violent extremism. Learn about radicalization signs and how to report concerns." />
-    <meta name="keywords" content="prevent, terrorism, radicalization, extremism, security, report" />
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-    <!-- custom css below bootstrap -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Prevent | Stop radicalization</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-</head>
-
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <!-- bootstrap navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-safe-area">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#hero"><img src="assets/images/nav-logo.png" alt="Prevent logo" /></a>
-                <!-- forgot to wrap li in a ul/ol initially -->
-                <ul id="nav-ul-md" class="d-none d-md-block d-lg-none">
-                    <!-- out of dropdown home link for tablets only -->
-                    <li class="nav-item d-none d-md-block d-lg-none ms-auto">
-                        <a id="nav-home-md" class="nav-link" href="#hero">Home</a>
-                    </li>
-                </ul>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                        <!-- blocks dropdown home link in tablet only -->
-                        <li class="nav-item d-md-none d-lg-block">
-                            <a class="nav-link" href="#hero">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#what-is">What is Prevent?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#signs">Spot Signs of Radicalization</a>
+    <body class="d-flex flex-column min-vh-100">
+        <header>
+            <!-- bootstrap navbar -->
+            <nav class="navbar navbar-expand-lg fixed-top navbar-safe-area">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#hero"
+                        ><img
+                            src="assets/images/nav-logo.png"
+                            alt="Prevent logo"
+                    /></a>
+                    <!-- forgot to wrap li in a ul/ol initially -->
+                    <ul id="nav-ul-md" class="d-none d-md-block d-lg-none">
+                        <!-- out of dropdown home link for tablets only -->
+                        <li
+                            class="nav-item d-none d-md-block d-lg-none ms-auto"
+                        >
+                            <a id="nav-home-md" class="nav-link" href="#hero"
+                                >Home</a
+                            >
                         </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <!-- hero -->
-        <section id="hero">
-            <div class="d-flex flex-column align-items-center">
-                <div>
-                    <!-- alt logo -->
-                    <img src="assets/images/hero-logo.webp" alt="Alternative Prevent logo" />
-                </div>
-                <div class="p-3">
-                    <!-- one-liner intro -->
-                    <h1>
-                        We help stop vulnerable individuals being lured into
-                        violent extremism
-                    </h1>
-                </div>
-                <div>
-                    <a href="https://act.campaign.gov.uk/?_gl=1*105ctvk*_gcl_au*MTc2OTI5MTYzNi4xNzUzNzAwMDk4*_ga*MTU2MjczMTkxRC4xNzUzNzAwMDk4*_ga_MS7H5KHEGT*czE3NTM3MTI5NDIkbzIkZzEkdDE3NTM3MTQ4NTckajYwJGwwJGgw*_ga_1V331QJD7G*czE3NTM3MTI5NDIkbzIkZzEkdDE3NTM3MTQ4NTckajYwJGwwJGgw" 
-                       target="_blank" rel="noopener noreferrer" aria-label="Report terrorism - External link to UK government site">
-                        <img id="hero-cta" src="assets/images/hero-cta.webp"
-                            alt="Report terrorism button - Take action on what you see" />
-                    </a>
-                </div>
-                <div class="px-5">
-                    <h2>
-                        Could your concern be an emergency? If so,
-                        <span>call 999</span>
-                    </h2>
-                </div>
-            </div>
-        </section>
-        <!-- what is prevent? -->
-        <section id="what-is">
-            <div class="d-flex flex-column align-items-center">
-                <div class="pt-4">
-                    <h2 class="display-6">What is <span>Prevent</span>?</h2>
-                </div>
-                <div class="mx-4 mt-3 px-5 py-2 what-is-div">
-                    <h3>
-                        <img class="what-is-bullets" src="assets/images/signs-bullet-points.png"
-                            alt="bullet point for style" />
-                        Tackles the ideological causes of terrorism.
-                    </h3>
-                    <hr />
-                </div>
-                <div class="mx-4 px-5 py-3 what-is-div">
-                    <h3>
-                        <img class="what-is-bullets" src="assets/images/signs-bullet-points.png"
-                            alt="bullet point for style" />
-                        Intervenes early to support people susceptible to
-                        radicalization.
-                    </h3>
-                    <hr />
-                </div>
-                <div class="mx-4 mb-3 px-5 py-2 what-is-div">
-                    <h3>
-                        <img class="what-is-bullets" src="assets/images/signs-bullet-points.png"
-                            alt="bullet point for style" />
-                        Enables people who have already engaged in terrorism
-                        to disengage and rehabilitate.
-                    </h3>
-                    <hr />
-                </div>
-                <!-- learn more cta -->
-                <div>
-                    <a href="https://www.gov.uk/government/publications/prevent-duty-guidance" target="_blank"
-                        rel="noopener noreferrer" role="button"><img id="what-is-cta" src="assets/images/what-is-cta.png"
-                            alt="Read more on Prevent (2023) - external UK government link" /></a>
-                </div>
-            </div>
-        </section>
-        <!-- signs of radicalization -->
-        <section id="signs">
-            <div class="py-5">
-                <h2>Spot Signs of Radicalization</h2>
-                <hr>
-            </div>
-            <!-- the 5 signs -->
-            <div id="signs-carousel">
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/bg-signs-one.webp" class="d-block w-100" alt="Background image representing glorifying violence concept">
-                            <div class="carousel-caption">
-                                <h5>Glorifying Violence</h5>
-                                <p>Much more likely to be male, a "lone wolf" and adopt a "commando" persona for a self-appointed mission, often with mixed ideological motives. Individuals like 'Anders Breivik'.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/bg-signs-two.webp" class="d-block w-100" alt="Background image representing identity transformation">
-                            <div class="carousel-caption">
-                                <h5>Adoption of a New, Totalizing Identity</h5>
-                                <p> A dramatic change in appearance, lifestyle, and personality to visibly signal complete and total allegiance to the new ideology and group. So-called "Islamic State" still poses the biggest threat.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/bg-signs-five.webp" class="d-block w-100" alt="Background image representing social isolation">
-                            <div class="carousel-caption">
-                                <h5>Social Isolation</h5>
-                                <p>Withdrawing from mainstream friends and family to immerse themselves in secretive, often online, echo chambers that reinforce and escalate extreme views. "Incels" are a modern phenomena of this.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/bg-signs-three.webp" class="d-block w-100" alt="Background image representing dehumanization language">
-                            <div class="carousel-caption">
-                                <h5>Dehumanization and 'Us vs. Them' Language</h5>
-                                <p>Using words that strip humanity from others, framing them as an 'enemy', 'threat', or 'vermin' to justify hatred and aggression. Neo-Nazis are a classic example.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/bg-signs-four.webp" class="d-block w-100" alt="Background image representing fixation on grievance">
-                            <div class="carousel-caption">
-                                <h5>Fixation on Grievance</h5>
-                                <p>An obsessive focus on perceived injustices against their group. Violent far-left extremists are a group that often thrives on oppression narratives.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        Menu
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <!-- blocks dropdown home link in tablet only -->
+                            <li class="nav-item d-md-none d-lg-block">
+                                <a class="nav-link" href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#what-is"
+                                    >What is Prevent?</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signs"
+                                    >Spot Signs of Radicalization</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- hero -->
+            <section id="hero">
+                <div class="d-flex flex-column align-items-center">
+                    <div>
+                        <!-- alt logo -->
+                        <img
+                            src="assets/images/hero-logo.webp"
+                            alt="Alternative Prevent logo"
+                        />
+                    </div>
+                    <div class="p-3">
+                        <!-- one-liner intro -->
+                        <h1>
+                            We help stop vulnerable individuals being lured into
+                            violent extremism
+                        </h1>
+                    </div>
+                    <div>
+                        <a
+                            href="https://act.campaign.gov.uk/?_gl=1*105ctvk*_gcl_au*MTc2OTI5MTYzNi4xNzUzNzAwMDk4*_ga*MTU2MjczMTkxRC4xNzUzNzAwMDk4*_ga_MS7H5KHEGT*czE3NTM3MTI5NDIkbzIkZzEkdDE3NTM3MTQ4NTckajYwJGwwJGgw*_ga_1V331QJD7G*czE3NTM3MTI5NDIkbzIkZzEkdDE3NTM3MTQ4NTckajYwJGwwJGgw"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Report terrorism - External link to UK government site"
+                        >
+                            <img
+                                id="hero-cta"
+                                src="assets/images/hero-cta.webp"
+                                alt="Report terrorism button - Take action on what you see"
+                            />
+                        </a>
+                    </div>
+                    <div class="px-5">
+                        <h2>
+                            Could your concern be an emergency? If so,
+                            <span>call 999</span>
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <!-- what is prevent? -->
+            <section id="what-is">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="pt-4">
+                        <h2 class="display-6">What is <span>Prevent</span>?</h2>
+                    </div>
+                    <div class="mx-4 mt-3 px-5 py-2 what-is-div">
+                        <h3>
+                            <img
+                                class="what-is-bullets"
+                                src="assets/images/signs-bullet-points.png"
+                                alt="bullet point for style"
+                            />
+                            Tackles the ideological causes of terrorism.
+                        </h3>
+                        <hr />
+                    </div>
+                    <div class="mx-4 px-5 py-3 what-is-div">
+                        <h3>
+                            <img
+                                class="what-is-bullets"
+                                src="assets/images/signs-bullet-points.png"
+                                alt="bullet point for style"
+                            />
+                            Intervenes early to support people susceptible to
+                            radicalization.
+                        </h3>
+                        <hr />
+                    </div>
+                    <div class="mx-4 mb-3 px-5 py-2 what-is-div">
+                        <h3>
+                            <img
+                                class="what-is-bullets"
+                                src="assets/images/signs-bullet-points.png"
+                                alt="bullet point for style"
+                            />
+                            Enables people who have already engaged in terrorism
+                            to disengage and rehabilitate.
+                        </h3>
+                        <hr />
+                    </div>
+                    <!-- learn more cta -->
+                    <div>
+                        <a
+                            href="https://www.gov.uk/government/publications/prevent-duty-guidance"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            role="button"
+                            ><img
+                                id="what-is-cta"
+                                src="assets/images/what-is-cta.png"
+                                alt="Read more on Prevent (2023) - external UK government link"
+                        /></a>
+                    </div>
+                </div>
+            </section>
+            <!-- signs of radicalization -->
+            <section id="signs">
+                <div class="py-5">
+                    <h2>Spot Signs of Radicalization</h2>
+                    <hr />
+                </div>
+                <!-- the 5 signs -->
+                <div id="signs-carousel">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="4"
+                                aria-label="Slide 5"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    src="assets/images/bg-signs-one.webp"
+                                    class="d-block w-100"
+                                    alt="Background image representing glorifying violence concept"
+                                />
+                                <div class="carousel-caption">
+                                    <h5>Glorifying Violence</h5>
+                                    <p>
+                                        Much more likely to be male, a "lone
+                                        wolf" and adopt a "commando" persona for
+                                        a self-appointed mission, often with
+                                        mixed ideological motives. Individuals
+                                        like 'Anders Breivik'.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/images/bg-signs-two.webp"
+                                    class="d-block w-100"
+                                    alt="Background image representing identity transformation"
+                                />
+                                <div class="carousel-caption">
+                                    <h5>
+                                        Adoption of a New, Totalizing Identity
+                                    </h5>
+                                    <p>
+                                        A dramatic change in appearance,
+                                        lifestyle, and personality to visibly
+                                        signal complete and total allegiance to
+                                        the new ideology and group. So-called
+                                        "Islamic State" still poses the biggest
+                                        threat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/images/bg-signs-five.webp"
+                                    class="d-block w-100"
+                                    alt="Background image representing social isolation"
+                                />
+                                <div class="carousel-caption">
+                                    <h5>Social Isolation</h5>
+                                    <p>
+                                        Withdrawing from mainstream friends and
+                                        family to immerse themselves in
+                                        secretive, often online, echo chambers
+                                        that reinforce and escalate extreme
+                                        views. "Incels" are a modern phenomena
+                                        of this.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/images/bg-signs-three.webp"
+                                    class="d-block w-100"
+                                    alt="Background image representing dehumanization language"
+                                />
+                                <div class="carousel-caption">
+                                    <h5>
+                                        Dehumanization and 'Us vs. Them'
+                                        Language
+                                    </h5>
+                                    <p>
+                                        Using words that strip humanity from
+                                        others, framing them as an 'enemy',
+                                        'threat', or 'vermin' to justify hatred
+                                        and aggression. Neo-Nazis are a classic
+                                        example.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="assets/images/bg-signs-four.webp"
+                                    class="d-block w-100"
+                                    alt="Background image representing fixation on grievance"
+                                />
+                                <div class="carousel-caption">
+                                    <h5>Fixation on Grievance</h5>
+                                    <p>
+                                        An obsessive focus on perceived
+                                        injustices against their group. Violent
+                                        far-left extremists are a group that
+                                        often thrives on oppression narratives.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-safe-area mt-auto">
+            <div class="container">
+                <div class="d-flex">
+                    <div class="pt-3">
+                        <p>Copyright © 2025</p>
+                    </div>
+                    <!-- bootstrap modal for privacy policy & cookies -->
+                    <div class="pt-3 ms-auto">
+                        <p><a href="#">Privacy Policy</a></p>
+                    </div>
                 </div>
             </div>
-    </main>
-    <footer class="footer-safe-area mt-auto">
-        <div class="container">
-            <div class="d-flex">
-                <div class="pt-3">
-                    <p>Copyright © 2025</p>
-                </div>
-                <!-- bootstrap modal for privacy policy & cookies -->
-                <div class="pt-3 ms-auto">
-                    <p><a href="#">Privacy Policy</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
-</body>
-
+        </footer>
+        <!-- bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
