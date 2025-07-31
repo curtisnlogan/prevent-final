@@ -167,7 +167,6 @@ nav img {
 /* 5 SIGNS */
 
 #signs {
-    min-height: 450px;
     background-color: var(--dark-blue);
     background-image: url(../assets/images/bg-signs-alt.webp);
     background-blend-mode: overlay;
