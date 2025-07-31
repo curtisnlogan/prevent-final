@@ -138,11 +138,12 @@ prevent-website/
 -   **Responsive Utilities:** Strategic use of display classes (`d-none`, `d-md-block`, `d-lg-none`) for tablet-specific navigation
 -   **Layout System:** Flexbox utilities combined with custom CSS for precise positioning
 
-# AI & Outcomes
+## AI & Outcomes
 
 During this project, I leveraged AI as a tool to enhance efficiency and refine the final product. My experience highlighted its strengths as a development assistant while reinforcing the importance of human oversight.
 
-Key Observations
+### Key Observations
+
 UI/UX Refinement: AI analysis of my wireframes identified that the initial button sizes were suboptimal for mobile touch interfaces, leading to larger, more accessible buttons. It also suggested restructuring dense paragraphs into bullet points, which significantly improved the readability of introductory content.
 
 Workflow Acceleration: AI was extremely useful for speeding up routine tasks. It efficiently spotted simple but easily overlooked errors like missing closing tags. It also accelerated "grunt work" such as partially automating Git commits and generating the technical sections of the README file by analyzing the entire project repository. While the AI-generated commit messages often required manual editing for clarity, this still streamlined the process.
