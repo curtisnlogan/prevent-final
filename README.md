@@ -50,7 +50,7 @@ This was my first time creating wireframes, and while I ended up deviating sligh
 
 ![Mobile Wireframe](assets/images/wireframes-smartphone.png)
 
-The wireframes established the core layout principles that guided development: hero section with prominent CTA, clear information hierarchy in the Prevent explanation, carousel-based presentation of warning signs, and responsive navigation patterns. Having these foundational decisions mapped out beforehand streamlined the development process significantly.
+The wireframes established the core layout principles that guided development: hero section with prominent CTA, clear information hierarchy in the Prevent explanation, carousel-based presentation of what ended-up being the warnings signs, and responsive navigation patterns. Having these foundational decisions mapped out beforehand streamlined the development process significantly.
 
 ## Project Management
 
