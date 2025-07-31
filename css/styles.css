@@ -115,9 +115,9 @@ nav img {
 #what-is {
     min-height: 450px;
     background-image: linear-gradient(
-        to top,
-        var(--light-blue),
-        var(--dark-blue)
+            to top,
+            var(--light-blue),
+            var(--dark-blue)
         ),
         url(../assets/images/bg-what-is.webp);
     background-blend-mode: lighten;
