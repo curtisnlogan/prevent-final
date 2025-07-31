@@ -168,7 +168,7 @@ nav img {
 
 #signs {
     background-color: var(--dark-blue);
-    background-image: url(../assets/images/bg-signs-alt.webp);
+    background-image: url(../assets/images/bg-signs.webp);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: 50% 10%;
