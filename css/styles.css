@@ -34,6 +34,10 @@ h6 {
     font-family: var(--header-font);
 }
 
+section {
+    scroll-margin-top: 200px;
+}
+
 /* NAVBAR */
 
 nav {
@@ -169,7 +173,7 @@ nav img {
 #signs {
     background-color: var(--dark-blue);
     background-image: url(../assets/images/bg-signs.webp);
-    background-blend-mode: overlay;
+    background-blend-mode: color-burn;
     background-repeat: no-repeat;
     background-position: 50% 10%;
 }
@@ -182,14 +186,19 @@ nav img {
 }
 
 #signs-carousel h5 {
-    background-color: rgba(29, 78, 125, 0.8);
+    background-color: rgba(29, 78, 125, 0.9);
     border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem;
 }
 
 #signs-carousel p {
-    background-color: rgba(29, 78, 125, 0.5);
+    background-color: rgba(29, 78, 125, 0.8);
     border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem;
 }
+
 #signs h2 {
     font-size: 2rem;
     color: var(--off-white);
@@ -234,17 +243,77 @@ footer a {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 768px) {
+    /* GLOBAL */
+
+    section {
+        scroll-margin-top: 150px;
+    }
+
+    /* HERO */
+
+    #hero h1 {
+        padding: 0 1rem;
+    }
+
+    /* SIGNS */
+    #signs-carousel p {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width: 992px) {
+    /* GLOBAL */
+
+    section {
+        scroll-margin-top: 75px;
+    }
+
     /* HERO */
 
     #hero-cta:hover {
-        width: 18rem;
+        width: 23rem;
+        transition: width 0.3s ease;
+    }
+
+    #hero img {
+        width: 20rem;
+    }
+
+    #hero h2 {
+        font-size: 1.2rem;
     }
 
     /* WHAT IS */
 
     #what-is-cta:hover {
-        width: 16rem;
+        width: 17rem;
+        transition: width 0.3s ease;
+    }
+
+    #what-is h2 {
+        font-size: 2.5rem;
+    }
+
+    #what-is h3 {
+        font-size: 1.5rem;
+    }
+
+    #what-is-cta {
+        width: 15rem;
+    }
+
+    /* SIGNS */
+    #signs-carousel {
+        max-width: 600px;
+    }
+
+    #signs-carousel p {
+        font-size: 1.3rem;
+    }
+
+    #signs-carousel h5 {
+        font-size: 1.6rem;
     }
 
     /* FOOTER */
