@@ -118,7 +118,15 @@ nav img {
         to top,
         var(--light-blue),
         var(--dark-blue)
-    );
+        ),
+        url(../assets/images/bg-what-is.webp);
+    background-blend-mode: lighten;
+    background-position: -20% 8%;
+}
+
+.what-is-div {
+    background-color: var(--dark-blue);
+    border-radius: 3px;
 }
 
 #what-is h2 {
