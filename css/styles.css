@@ -197,6 +197,18 @@ footer a {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 992px) {
+    /* HERO */
+
+    #hero-cta:hover {
+        width: 18rem;
+    }
+
+    /* WHAT IS */
+
+    #what-is-cta:hover {
+        width: 16rem;
+    }
+
     /* FOOTER */
     .footer-safe-area {
         padding: 0 1rem 1rem 1rem;
