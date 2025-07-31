@@ -12,7 +12,7 @@ Built with accessibility and performance in mind, the site implements semantic H
 
 ## User Value
 
-This website educates visitors about radicalization warning signs through an interactive carousel showcasing five key indicators (glorifying violence, identity transformation, social isolation, dehumanizing language, and fixation on grievances) while providing immediate access to official UK government reporting channels. Community members, educators, and family members can identify at-risk individuals and take swift action through emergency contacts and reporting mechanisms to potentially prevent acts of terrorism.
+This website educates visitors about radicalization warning signs through an interactive carousel showcasing five key behavioral indicators, while providing immediate access to official UK government reporting channels. Community members, educators, and family members can identify at-risk individuals and take swift action through emergency contacts and reporting mechanisms to potentially prevent acts of terrorism.
 
 ### Hero Section
 
@@ -24,19 +24,46 @@ The landing page features a clear call-to-action button linking to the official 
 
 A visually organized breakdown of Prevent's three core functions using bullet points and contrasting colors. This section educates users about the strategy's approach to tackling terrorism ideology, early intervention, and rehabilitation, helping them understand the broader context of counter-extremism efforts.
 
-**Technical Implementation:** CSS blend modes combining linear gradients with background images, custom styled bullet points using decorative PNG images with white backgrounds, and responsive typography scaling from 0.9rem to 1.5rem across breakpoints. The section uses CSS custom properties for consistent color theming throughout.
+**Technical Implementation:** CSS blend modes combining linear gradients with background images, custom styled bullet points using decorative PNG images, and responsive typography scaling from 0.9rem to 1.5rem across breakpoints.
 
 ### Signs of Radicalization Carousel
 
 An interactive Bootstrap carousel displaying five key warning signs with background imagery and detailed descriptions. Each slide covers specific behaviors like glorifying violence, identity transformation, social isolation, dehumanizing language, and fixation on grievances, giving users concrete examples to recognize in their communities.
 
-**Technical Implementation:** Bootstrap 5 carousel component with custom CSS overlay captions using RGBA background colors for readability (0.8-0.9 opacity). The carousel is responsive with max-width constraints (400px mobile, 600px desktop) and center-aligned using auto margins. Typography scales from 0.9rem to 1.6rem across breakpoints, with rounded corners on caption backgrounds for visual polish.
+**Technical Implementation:** Bootstrap 5 carousel component with custom CSS overlay captions using RGBA background colors for readability (0.8-0.9 opacity). The carousel is responsive with max-width constraints (400px mobile, 600px desktop) and center-aligned using auto margins. Typography scales responsively across breakpoints, with rounded corners on caption backgrounds for visual polish.
 
 ### Responsive Navigation
 
 A mobile-first navigation system with special consideration for tablet users (exposed home link).
 
-**Technical Implementation:** Bootstrap navbar with custom breakpoint logic - the home link is hidden on tablets (`d-md-none d-lg-block`) but exposed separately for tablet users (`d-none d-md-block d-lg-none`) positioned with margin-left offset. The navbar uses CSS custom properties for theming and gradient backgrounds. Font weight and border radius customizations override Bootstrap defaults for brand consistency.
+**Technical Implementation:** Bootstrap navbar with custom breakpoint logic - the home link is hidden on tablets (`d-md-none d-lg-block`) but exposed separately for tablet users (`d-none d-md-block d-lg-none`) positioned with margin-left offset. The navbar uses gradient backgrounds with font weight and border radius customizations that override Bootstrap defaults for brand consistency.
+
+## Design Process
+
+### Wireframing
+
+This was my first time creating wireframes, and while I ended up deviating slightly from the original designs during development, they proved invaluable for the overall design process. The wireframes helped me avoid getting bogged down in design decisions while styling, allowing me to focus on implementation rather than constantly reconsidering the general layout and structure.
+
+**Desktop Wireframe:**
+![Desktop Wireframe](assets/images/wireframes-laptop.png)
+
+**Tablet Wireframe:**
+![Tablet Wireframe](assets/images/wireframes-tablet.png)
+
+**Mobile Wireframe:**
+![Mobile Wireframe](assets/images/wireframes-smartphone.png)
+
+The wireframes established the core layout principles that guided development: hero section with prominent CTA, clear information hierarchy in the Prevent explanation, carousel-based presentation of warning signs, and responsive navigation patterns. Having these foundational decisions mapped out beforehand streamlined the development process significantly.
+
+## Project Management
+
+### MoSCoW Prioritization
+
+![GitHub Projects Board](assets/images/gh-projects.png)
+
+The project followed MoSCoW prioritization methodology to ensure delivery of a polished MVP within the 3-day time constraint. Two lower-priority "Could Have" tasks were intentionally left undone in favor of focusing development effort on core functionality and polish. This approach prioritized having a fully functional, well-designed website over adding potentially fiddly additional features that might compromise the overall quality of the deliverable.
+
+The GitHub Projects board tracked progress through Must Have, Should Have, Could Have, and Won't Have categories, ensuring clear focus on essential features while maintaining visibility of future enhancement opportunities.
 
 ## Validation
 
@@ -50,7 +77,7 @@ The website passes W3C HTML validation, ensuring clean, semantic markup that fol
 
 ![CSS Validation Pass](assets/images/css-pass.png)
 
-The CSS code validates successfully through the W3C CSS Validator, confirming proper syntax and compatibility across browsers. The stylesheet leverages modern CSS features including custom properties (CSS variables), flexbox layouts, gradient backgrounds with blend modes, and responsive design patterns while maintaining cross-browser compatibility.
+The CSS code validates successfully through the W3C CSS Validator, confirming proper syntax and compatibility across browsers. The stylesheet leverages modern CSS features while maintaining cross-browser compatibility.
 
 ## Deployment Procedure
 
@@ -121,8 +148,8 @@ prevent-website/
 improvement → impact
 
 -   noted my buttons were too small in my wireframe → easier to click on bigger buttons with fingers on smartphones
--   be cautious of dense paragraphs unless necessary → introduction to prevent is more likely to be read when split into three bullet points
+-   be cautious of dense paragraphs unless necessary → introduction to Prevent is more likely to be read when split into three bullet points
 -   wrongly suggested max-width in media queries instead of min-width → would not have activated responsive breakpoints properly
 -   partially automating commits → easier but AI commit messages often require editing
 -   summarizing large chunks of text for comprehension or content → saves time by removing non-critical text but have to check that it hasn't omitted something key
--   helpful in filling out technical aspects of readme by having ability to analyze entire project
+-   helpful in filling out technical aspects of README by having ability to analyze entire project
