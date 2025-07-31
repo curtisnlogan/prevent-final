@@ -168,6 +168,18 @@ nav img {
 
 #signs {
     min-height: 450px;
+    background-color: var(--dark-blue);
+}
+
+#signs h2 {
+    font-size: 2rem;
+    color: var(--off-white);
+    text-align: center;
+    font-weight: 700;
+}
+
+#signs hr {
+    color: var(--off-white);
 }
 
 /* FOOTER */
