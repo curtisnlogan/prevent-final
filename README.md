@@ -58,7 +58,7 @@ The wireframes established the core layout principles that guided development: h
 
 ![GitHub Projects Board](assets/images/gh-projects.png)
 
-The project followed MoSCoW prioritization methodology to ensure delivery of a polished MVP within the 3-day time constraint. Two lower-priority "Could Have" tasks were intentionally left undone in favor of focusing development effort on core functionality and polish. This approach prioritized having a fully functional, well-designed website over adding potentially fiddly additional features that might compromise the overall quality of the deliverable.
+The project followed MoSCoW prioritization methodology to ensure delivery of a polished MVP within the 3-day time constraint. Two lower-priority non-MVP were intentionally left undone in favor of focusing development effort on core functionality and polish. This approach prioritized having a fully functional, well-designed website over adding potentially fiddly additional features that might compromise the overall quality of the deliverable.
 
 The GitHub Projects board tracked progress through Must Have, Should Have, Could Have, and Won't Have categories, ensuring clear focus on essential features while maintaining visibility of future enhancement opportunities.
 
