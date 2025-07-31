@@ -169,8 +169,28 @@ nav img {
 #signs {
     min-height: 450px;
     background-color: var(--dark-blue);
+    background-image: url(../assets/images/bg-signs-alt.webp);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
 }
 
+#signs-carousel {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+}
+
+#signs-carousel h5 {
+    background-color: rgba(29, 78, 125, 0.8);
+    border-radius: 5px;
+}
+
+#signs-carousel p {
+    background-color: rgba(29, 78, 125, 0.5);
+    border-radius: 5px;
+}
 #signs h2 {
     font-size: 2rem;
     color: var(--off-white);
