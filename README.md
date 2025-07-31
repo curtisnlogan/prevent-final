@@ -1,4 +1,4 @@
-# prevent-website
+# Prevent Website
 
 A responsive educational website that helps users identify signs of radicalization and provides resources to report concerns about violent extremism.
 
