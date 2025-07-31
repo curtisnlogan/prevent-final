@@ -306,6 +306,10 @@ footer a {
         font-size: 1.3rem;
     }
 
+    #signs-carousel h5 {
+        font-size: 1.6rem;
+    }
+
     /* FOOTER */
     .footer-safe-area {
         padding: 0 1rem 1rem 1rem;
