@@ -61,15 +61,6 @@ nav {
     color: var(--dark-blue);
 }
 
-/* ensures notches etc. on primarily apple devices are account for by the navbar */
-.navbar-safe-area {
-    padding-top: calc(1rem + env(safe-area-inset-top));
-    padding-right: calc(1rem + env(safe-area-inset-right));
-    padding-left: calc(1rem + env(safe-area-inset-left));
-    /* Bottom safe area is usually not needed for nav bars at the top, but right/left/top help with notches and rounded corners. */
-    padding-bottom: 1rem;
-}
-
 /* overrides bootstrap defaults */
 nav .nav-link {
     color: var(--dark-blue);
@@ -234,13 +225,6 @@ footer a {
     color: var(--dark-blue);
 }
 
-/* safe area for touch screen controls and rounded screen edge corners */
-.footer-safe-area {
-    padding-right: calc(1rem + env(safe-area-inset-right));
-    padding-left: calc(1rem + env(safe-area-inset-left));
-    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
-}
-
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
@@ -314,10 +298,5 @@ footer a {
 
     #signs-carousel h5 {
         font-size: 1.6rem;
-    }
-
-    /* FOOTER */
-    .footer-safe-area {
-        padding: 0 1rem 1rem 1rem;
     }
 }
