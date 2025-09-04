@@ -1,8 +1,8 @@
 # Prevent Website
 
-A responsive educational website that helps users identify signs of radicalization and provides resources to report concerns about violent extremism.
-
 **⏰ Time Constraint:** This project was completed under a strict 4-day time limit with no commits permitted after 5pm on the final cutoff day. The project has remained unmodified since submission to maintain academic integrity.
+
+A responsive educational website that helps users identify signs of radicalization and provides resources to report concerns about violent extremism.
 
 ## Purpose
 
