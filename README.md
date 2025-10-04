@@ -22,7 +22,7 @@ The landing page features a clear call-to-action button linking to the official 
 
 ### What is Prevent Section
 
-A visually organized breakdown of Prevent's three core functions using bullet points and contrasting colors. This section educates users about the strategy's approach to tackling terrorism ideology, early intervention, and rehabilitation, helping them understand the broader context of counter-extremism efforts.
+A visually organized breakdown of Prevent's three core functions using bullet points and contrasting colors. This section educates users about the strategy's approach to tackling terrorist ideology, early intervention, and rehabilitation, helping them understand the broader context of counter-extremism efforts.
 
 **Technical Implementation:** CSS blend modes combining linear gradients with background images, custom styled bullet points using decorative PNG images, and responsive typography scaling from 0.9rem to 1.5rem across breakpoints.
 
@@ -34,9 +34,9 @@ An interactive Bootstrap carousel displaying five key warning signs with backgro
 
 ### Responsive Navigation
 
-A mobile-first navigation system with special consideration for tablet users (exposed home link).
+A mobile-first navigation system with special consideration for tablet users (the home link is exposed).
 
-**Technical Implementation:** Bootstrap navbar with custom breakpoint logic - the home link is hidden on tablets (`d-md-none d-lg-block`) but exposed separately for tablet users (`d-none d-md-block d-lg-none`) positioned with margin-left offset. The navbar uses gradient backgrounds with font weight and border radius customizations that override Bootstrap defaults for brand consistency.
+**Technical Implementation:** Bootstrap navbar with custom breakpoint logic - the home link is hidden on tablets (`d-md-none d-lg-block`) but exposed separately for tablet users (`d-none d-md-block d-lg-none`) positioned with a margin-left offset. The navbar uses gradient backgrounds with font weight and border radius customizations that override Bootstrap defaults for brand consistency.
 
 ## Design Process
 
